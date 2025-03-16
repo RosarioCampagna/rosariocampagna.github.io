@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rosario Portfolio</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">Rosario.</div>
+
+      <nav class="navbar">
+        <div id="projectsButton">Progetti</div>
+        <div id="contactsButton">Contattami</div>
+      </nav>
+
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+
+    <section class="about">
+      <img src="assets/apps_logos/costio_web.png" alt="" />
+      <div class="aboutText">
+        <h1>Ciao, sono <span>Rosario</span></h1>
+        <h2>Sono un <span>Software Developer</span></h2>
+        <p class="description">
+          Diplomato come commercialista informatico, ho presto intrapreso la
+          strada da programmatore autodidatta, perché dopo 3 anni da
+          cameriere/barista, ho deciso che volevo dare una svolta alla mia vita.
+          Ho iniziato con thunkable, un "framework" che dava la possibilità di
+          creare applicazioni partendo da blocchi di codice messi poi insieme,
+          ma dopo poco tempo mi sono accorto che se volevo davvero imparare a
+          programmare avrei dovuto trovare qualcosa di più serio, ed è qui che
+          ho scoperto <span>Flutter</span>. Sviluppato 6 anni fa da Google,
+          <span>Flutter</span> mi ha dato la possibilità di creare qualcosa di
+          più serio e per qualsiasi piattaforma tramite il linguaggio univoco
+          Dart. Dopo 4 anni di utilizzo e apprendimento qui sotto potete vedere
+          alcuni dei progetti che ho portato a termine.
+        </p>
+        <div class="profiles">
+          <a
+            href="https://www.linkedin.com/in/rosario-campagna-b31650267/"
+            target="_blank"
+          >
+            <i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/RosarioCampagna" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.instagram.com/rosario_sw_/" target="_blank"
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="projectsSection">
+      <h2 id="projectsTitle">I miei progetti</h2>
+
+      <div class="appContainer">
+        <!-- questo è il primo appWidget-->
+        <a href="pages/morepass.html" class="appWidget">
+          <img
+            src="assets/apps_logos/morepass_logo.png"
+            alt="Impossibile ottenere l'immagine"
+          />
+          <h2>MorePass</h2>
+          <p id="morepass_description">
+            <b>MorePass</b>: La soluzione definitiva per la gestione delle tue
+            password. Facile da usare e sicura, MorePass si occupa di conservare
+            le password che usi quotidianamente per accedere alle applicazioni o
+            ai siti web. Sfrutta un <b>sistema di cifratura AES-256</b>, ad oggi
+            uno dei più avanzati per garantire la massima sicurezza anche nelle
+            situazioni più critiche.
+            <b>Provala oggi e resta sempre al passo</b>.
+          </p>
+        </a>
+
+        <!-- questo è il secondo appWidget-->
+        <a href="pages/costio.html" class="appWidget">
+          <img
+            src="assets/apps_logos/costio_web.png"
+            alt="Impossibile ottenere l'immagine"
+          />
+          <h2>Costio - Expense Tracker</h2>
+          <p id="costio_description">
+            <b>Costio</b> è un'applicazione molto utile per chi desidera tenere
+            traccia delle proprie spese e
+            <b>gestire meglio i movimenti monetari</b>. L'app ti permette di
+            inserire tutte i tuoi movimenti, classificarli per categorie e
+            visualizzare i tuoi progressi con grafici che rendono tutto chiaro e
+            comprensibile. È un'ottima soluzione per chi vuole avere un
+            controllo più rigoroso sul proprio denaro e
+            <b>migliorare le proprie abitudini finanziarie</b>.
+          </p>
+        </a>
+
+        <!-- questo è il terzo appWidget-->
+        <a href="pages/merycafe.html" class="appWidget">
+          <img
+            src="assets/apps_logos/merycafe_logo.jpeg"
+            alt="Impossibile ottenere l'immagine"
+            style="border-radius: 24px"
+          />
+          <h2>Mery Cafe Logistic</h2>
+          <p id="merycafe_description">
+            <b>Mery Café Logistic</b> è un’applicazione gestionale creata per
+            ottimizzare l'efficienza aziendale. Consente di generare e inviare
+            fatture e documenti di trasporto in modo semplice e rapido. Inoltre,
+            offre un controllo preciso del magazzino, garantendo una visione
+            chiara e aggiornata di tutti i prodotti disponibili e quelli da
+            ordinare.
+          </p>
+        </a>
+
+        <!-- questo è il quarto appWidget-->
+        <a href="pages/mighty_shop.html" class="appWidget">
+          <div class="mighty_logo_div">
+            <img
+              src="assets/apps_logos/mighty_logo.png"
+              alt="Impossibile ottenere l'immagine"
+              class="mighty_logo"
+            />
+          </div>
+          <h2>Mighty Shop</h2>
+          <p id="mighty_description">
+            <b>Mighty Shop</b> è la soluzione ideale pensata per un’attività
+            commerciale che desidera vendere online i propri prodotti con
+            facilità. Di qualsiasi articolo si tratti, Mighty Shop offre
+            un'interfaccia intuitiva, un ampio catalogo con immagini e
+            descrizioni dettagliate, oltre a filtri avanzati per facilitare la
+            ricerca. Essenziale, ma completa, per soddisfare ogni esigenza di
+            vendita online.
+          </p>
+        </a>
+
+        <!-- questo è il quinto appWidget-->
+        <a href="pages/genshin_showcase.html" class="appWidget">
+          <img
+            src="assets/apps_logos/genshin_showcase.png"
+            alt="Impossibile ottenere l'immagine"
+            class="genshin_showcase_logo"
+          />
+          <h2>Genshin Showcase</h2>
+          <p id="genshin_description">
+            <b>Genshin Showcase</b>: Inspirata dal celebre gioco
+            <b>Genshin Impact</b>, è un'app che serve a mettere in mostra i
+            migliori personaggi del tuo account. Basta collegarti al tuo
+            account, abilitare la vetrina e selezionare i personaggi da
+            mostrare.
+          </p>
+        </a>
+      </div>
+    </section
+
+    <section id="contact">
+      <p class="contactLabel">Contattami</p>
+      <form action="submit" class="contactForm">
+        <div class="contactAndSubject">
+          <input
+            type="email"
+            pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}"
+            size="30"
+            required
+            placeholder="Inserisci la tua email"
+            name="email"
+            autocomplete="email"
+          />
+          <input type=" text" placeholder="Oggetto" required name="object" />
+        </div>
+        <textarea
+          name="corpo"
+          id="emailText"
+          placeholder="Corpo dell'email"
+        ></textarea>
+        <button>Invia email</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="profiles">
+        <a
+          href="https://www.linkedin.com/in/rosario-campagna-b31650267/"
+          target="_blank"
+        >
+          <i class="bx bxl-linkedin"></i
+        ></a>
+        <a href="https://github.com/RosarioCampagna" target="_blank"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a href="https://www.instagram.com/rosario_sw_/" target="_blank"
+          ><i class="bx bxl-instagram-alt"></i
+        ></a>
+      </div>
+
+      <nav>
+        <div id="homepage">Homepage</div>
+        <div id="footerProjectsButton">Progetti</div>
+        <div id="footerContactsButton">Contattami</div>
+      </nav>
+    </footer>
+    <script defer type="text/javascript" src="index.js"></script>
+  </body>
+</html>
