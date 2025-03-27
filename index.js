@@ -5,8 +5,8 @@ const contactSection = document.getElementById("contact");
 const homeButton = document.getElementById("homepage");
 
 homeButton.addEventListener("click", () => window.scrollTo({ top }))
-projectsButton.addEventListener("click", () => projectsSection.scrollIntoView({ block: "start" }))
-contactsButton.addEventListener("click", () => contactSection.scrollIntoView({ block: "start" }))
+projectsButton.addEventListener("click", () => { projectsSection.scrollIntoView({ block: "start" }); hamburger.classList.remove("active"); offMenu.classList.remove("active"); })
+contactsButton.addEventListener("click", () => { contactSection.scrollIntoView({ block: "start" }); hamburger.classList.remove("active"); offMenu.classList.remove("active"); })
 
 const footerProjectsButton = document.getElementById("footerProjectsButton");
 const footerContactsButton = document.getElementById("footerContactsButton");

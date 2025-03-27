@@ -162,6 +162,10 @@ body {
   text-align: center;
 }
 
+.details p a {
+  color: var(--primaryColor);
+}
+
 .functionality {
   display: flex;
   width: 100%;
